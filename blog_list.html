@@ -4,6 +4,7 @@
 <head>
   <title>Blog</title>
   <link href="./bootstrap4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <script src="https://kit.fontawesome.com/73b3f55b6d.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -52,13 +53,21 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="loginModalLabel">Login</h5>
+          <h5 class="modal-title" id="loginModalLabel"><i class="fas fa-sign-in-alt"></i>&nbsp;Log In</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+          <div class="row">
+            <div class="col-md-6">
+              <button type="button" class="btn btn-outline-dark btn-block btn-sm"><i class="fab fa-google"></i>&nbsp;&nbsp;Log in with Google</button>
+              <button type="button" class="btn btn-outline-dark btn-block btn-sm"><i class="far fa-envelope"></i>&nbsp;&nbsp;Log in with E-mail</button>
+            </div>
+            <div class="col-md-6">
+              <button type="button" class="btn btn-outline-dark btn-block btn-sm"><i class="far fa-envelope"></i>&nbsp;&nbsp;Sign Up with E-mail</button>
+            </div>
+          </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
